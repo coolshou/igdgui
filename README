@@ -17,8 +17,8 @@ Features:
 - View port forwardings
 - Add and delete port forwardings
 
-To build igdgui, you need to install miniupnpc 1.6 or later, and a recent
-version of Qt 4 (only tested with Qt 4.7). Run the following commands:
+To build igdgui, you need to install miniupnpc 2.1 or later, and a recent
+version of Qt 5 (only tested with Qt 5.11). Run the following commands:
  $ qmake igdgui.pro
  $ make
  $ ./igdgui
