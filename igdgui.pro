@@ -26,3 +26,9 @@ sources.path = .
 INSTALLS += target sources
 LIBS += -lminiupnpc
 #CONFIG += debug
+
+DISTFILES += \
+    src/images/igdgui.png
+
+RESOURCES += \
+    src/igdgui.qrc

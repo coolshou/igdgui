@@ -6,12 +6,16 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>438</width>
-    <height>250</height>
+    <width>444</width>
+    <height>354</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>UPnP IGD GUI</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="igdgui.qrc">
+    <normaloff>:/images/igdgui.png</normaloff>:/images/igdgui.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -240,6 +244,8 @@
    </layout>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="igdgui.qrc"/>
+ </resources>
  <connections/>
 </ui>

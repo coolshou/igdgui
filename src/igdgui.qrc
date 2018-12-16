@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/igdgui.png</file>
+    </qresource>
+</RCC>
